@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="800" height="900" fill="#171a1f"/>
+  <text x="70" y="110" font-size="30" fill="#e6e8eb" font-weight="700">Monthly active users</text>
+  <text x="70" y="150" font-size="22" fill="#8b929c">thousands, Jan–Sep 2026</text>
+  <g stroke="#2a2f37"><path d="M70 300h660M70 450h660M70 600h660M70 750h660"/></g>
+  <g font-size="18" fill="#8b929c" text-anchor="end"><text x="60" y="306">16</text><text x="60" y="456">12</text><text x="60" y="606">8</text><text x="60" y="756">4</text></g>
+  <g fill="#3a4049">
+    <rect x="90" y="533" width="52" height="217" rx="6"/>
+    <rect x="160" y="521" width="52" height="229" rx="6"/>
+    <rect x="230" y="506" width="52" height="244" rx="6"/>
+    <rect x="300" y="476" width="52" height="274" rx="6"/>
+    <rect x="370" y="461" width="52" height="289" rx="6"/>
+    <rect x="440" y="435" width="52" height="315" rx="6"/>
+  </g>
+  <g fill="#f59e0b">
+    <rect x="510" y="397" width="52" height="353" rx="6"/>
+    <rect x="580" y="352" width="52" height="398" rx="6"/>
+    <rect x="650" y="304" width="52" height="446" rx="6"/>
+  </g>
+  <g font-size="18" fill="#8b929c" text-anchor="middle">
+    <text x="116" y="790">J</text><text x="186" y="790">F</text><text x="256" y="790">M</text><text x="326" y="790">A</text><text x="396" y="790">M</text><text x="466" y="790">J</text>
+    <text x="536" y="790" fill="#f59e0b">J</text><text x="606" y="790" fill="#f59e0b">A</text><text x="676" y="790" fill="#f59e0b">S</text>
+  </g>
+  <text x="676" y="285" font-size="22" fill="#f59e0b" text-anchor="middle" font-weight="700">15.9k</text>
+  <text x="70" y="850" font-size="20" fill="#8b929c">Q3 in amber</text>
+</svg>

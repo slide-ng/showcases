@@ -1,0 +1,11 @@
+.kn-stamp {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  border: 4px double var(--kn-stamp-color, #d33);
+  color: var(--kn-stamp-color, #d33);
+  font-family: ui-monospace, monospace;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  transform: rotate(-8deg);
+  opacity: 0.9;
+}

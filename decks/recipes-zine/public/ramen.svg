@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320">
+  <rect width="480" height="320" fill="#2b2622"/>
+  <rect x="380" y="40" width="10" height="250" rx="4" fill="#c9a77c" transform="rotate(12 385 165)"/>
+  <rect x="404" y="40" width="10" height="250" rx="4" fill="#c9a77c" transform="rotate(16 409 165)"/>
+  <circle cx="220" cy="160" r="138" fill="#b5402a"/>
+  <circle cx="220" cy="160" r="122" fill="#7a3a1c"/>
+  <circle cx="220" cy="160" r="122" fill="#a8642c" opacity=".55"/>
+  <g fill="none" stroke="#f0d79a" stroke-width="5" stroke-linecap="round" opacity=".9">
+    <path d="M130 190c30-20 60 20 90 0s60 20 90 0"/>
+    <path d="M140 210c30-20 60 20 90 0s50 18 70 4"/>
+    <path d="M160 230c25-16 50 16 75 0s40 12 55 2"/>
+  </g>
+  <!-- nori -->
+  <rect x="250" y="62" width="70" height="92" fill="#1f2a1f" transform="rotate(14 285 108)"/>
+  <!-- chashu -->
+  <circle cx="165" cy="105" r="36" fill="#d9a07a"/><circle cx="165" cy="105" r="36" fill="none" stroke="#8b4a2b" stroke-width="6"/>
+  <path d="M146 96c12 8 26 6 38-4" stroke="#b9774f" stroke-width="4" fill="none"/>
+  <!-- ajitama, two halves -->
+  <g transform="translate(250 175)"><ellipse rx="30" ry="24" fill="#f7efe0"/><ellipse rx="16" ry="13" fill="#e7962b"/></g>
+  <g transform="translate(300 150)"><ellipse rx="30" ry="24" fill="#f7efe0"/><ellipse rx="16" ry="13" fill="#e7962b"/></g>
+  <!-- negi -->
+  <g fill="#9dc25a" stroke="#5f8a2c" stroke-width="2">
+    <circle cx="200" cy="150" r="6"/><circle cx="214" cy="140" r="5"/><circle cx="190" cy="165" r="5"/>
+    <circle cx="222" cy="158" r="6"/><circle cx="206" cy="128" r="4"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="800" height="900" fill="#171a1f"/>
+  <text x="70" y="110" font-size="30" fill="#e6e8eb" font-weight="700">Six squads</text>
+  <text x="70" y="150" font-size="22" fill="#8b929c">42 people, two squads new this quarter</text>
+  <g font-size="22" text-anchor="middle" fill="#e6e8eb">
+    <g transform="translate(200 300)"><circle r="92" fill="#262b32"/><circle r="92" fill="none" stroke="#3a4049" stroke-width="3"/><text y="-6" font-weight="700">Ingest</text><text y="26" font-size="18" fill="#8b929c">8 people</text></g>
+    <g transform="translate(400 300)"><circle r="92" fill="#262b32"/><circle r="92" fill="none" stroke="#3a4049" stroke-width="3"/><text y="-6" font-weight="700">Query</text><text y="26" font-size="18" fill="#8b929c">7 people</text></g>
+    <g transform="translate(600 300)"><circle r="92" fill="#262b32"/><circle r="92" fill="none" stroke="#3a4049" stroke-width="3"/><text y="-6" font-weight="700">Dashboards</text><text y="26" font-size="18" fill="#8b929c">9 people</text></g>
+    <g transform="translate(200 520)"><circle r="92" fill="#262b32"/><circle r="92" fill="none" stroke="#3a4049" stroke-width="3"/><text y="-6" font-weight="700">Growth</text><text y="26" font-size="18" fill="#8b929c">6 people</text></g>
+    <g transform="translate(400 520)"><circle r="92" fill="#2a2216"/><circle r="92" fill="none" stroke="#f59e0b" stroke-width="3"/><text y="-6" font-weight="700">Mobile</text><text y="26" font-size="18" fill="#f59e0b">new · 6</text></g>
+    <g transform="translate(600 520)"><circle r="92" fill="#2a2216"/><circle r="92" fill="none" stroke="#f59e0b" stroke-width="3"/><text y="-6" font-weight="700">Alerts</text><text y="26" font-size="18" fill="#f59e0b">new · 6</text></g>
+  </g>
+  <path d="M110 700h580" stroke="#2a2f37"/>
+  <text x="400" y="760" font-size="20" fill="#8b929c" text-anchor="middle">Each squad owns its roadmap and its on-call rota.</text>
+</svg>

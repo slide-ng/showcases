@@ -1,0 +1,38 @@
+:root {
+  --zine-accent: #6b645a;
+}
+/* each issue picks its own accent; setup/main.ts sets the attribute */
+:root[data-zine='issue-3'] {
+  --zine-accent: #2f6f4e;
+}
+.slidev-layout h1 {
+  letter-spacing: -0.02em;
+}
+.zine-footer {
+  color: var(--zine-accent);
+  font-family: var(--slidev-font-serif, serif);
+  pointer-events: none;
+}
+.recipe-meta {
+  color: var(--zine-accent);
+  margin-bottom: 0.75rem;
+}
+.recipe-ingredients h3 {
+  margin-top: 0;
+}
+.reader-note {
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #d8cfc0;
+  border-radius: 4px;
+  background: #fbf8f1;
+  font-family: var(--slidev-font-serif, serif);
+}
+.reader-note small {
+  display: block;
+  margin-top: 0.4rem;
+  font-family: var(--slidev-font-sans, sans-serif);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--zine-accent);
+}

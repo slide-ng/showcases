@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, Helvetica, Arial, sans-serif">
+  <rect width="1600" height="900" fill="#0d0f12"/>
+  <rect x="80" y="60" width="1440" height="780" rx="18" fill="#171a1f" stroke="#2a2f37"/>
+  <!-- window bar -->
+  <path d="M80 78a18 18 0 0 1 18-18h1404a18 18 0 0 1 18 18v34H80z" fill="#1f2329"/>
+  <g fill="#3a4049"><circle cx="112" cy="94" r="7"/><circle cx="136" cy="94" r="7"/><circle cx="160" cy="94" r="7"/></g>
+  <text x="800" y="100" fill="#8b929c" font-size="18" text-anchor="middle">tallyfold · Dashboards v2</text>
+  <!-- sidebar -->
+  <rect x="80" y="112" width="240" height="728" fill="#14171b"/>
+  <g font-size="18" fill="#8b929c">
+    <text x="112" y="170" fill="#f59e0b" font-weight="700">◆ Tallyfold</text>
+    <rect x="100" y="198" width="200" height="40" rx="8" fill="#262b32"/>
+    <text x="120" y="224" fill="#e6e8eb">Overview</text>
+    <text x="120" y="274">Funnels</text><text x="120" y="320">Retention</text><text x="120" y="366">Revenue</text><text x="120" y="412">Alerts</text>
+  </g>
+  <!-- KPI cards -->
+  <g font-size="16" fill="#8b929c">
+    <rect x="360" y="150" width="270" height="130" rx="12" fill="#1f2329"/><text x="384" y="186">Monthly active users</text><text x="384" y="244" font-size="44" fill="#e6e8eb" font-weight="700">15.9k</text><text x="540" y="244" fill="#34d399">▲ 28%</text>
+    <rect x="650" y="150" width="270" height="130" rx="12" fill="#1f2329"/><text x="674" y="186">Churn</text><text x="674" y="244" font-size="44" fill="#e6e8eb" font-weight="700">2.4%</text><text x="800" y="244" fill="#34d399">▼ 0.7</text>
+    <rect x="940" y="150" width="270" height="130" rx="12" fill="#1f2329"/><text x="964" y="186">Revenue vs Q2</text><text x="964" y="244" font-size="44" fill="#e6e8eb" font-weight="700">+31%</text>
+    <rect x="1230" y="150" width="250" height="130" rx="12" fill="#1f2329"/><text x="1254" y="186">NPS</text><text x="1254" y="244" font-size="44" fill="#e6e8eb" font-weight="700">47</text>
+  </g>
+  <!-- main chart -->
+  <rect x="360" y="300" width="760" height="500" rx="12" fill="#1f2329"/>
+  <text x="384" y="340" font-size="18" fill="#e6e8eb">Active teams, last 90 days</text>
+  <g stroke="#2a2f37"><path d="M384 420h712M384 520h712M384 620h712M384 720h712"/></g>
+  <path d="M384 730 L440 712 496 716 552 690 608 676 664 682 720 640 776 620 832 628 888 580 944 560 1000 520 1056 500 1096 470" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M384 730 L440 712 496 716 552 690 608 676 664 682 720 640 776 620 832 628 888 580 944 560 1000 520 1056 500 1096 470 V760 H384z" fill="#f59e0b" opacity=".1"/>
+  <path d="M384 760 L496 752 608 744 720 730 832 722 944 706 1096 690" fill="none" stroke="#2dd4bf" stroke-width="4" stroke-dasharray="10 8"/>
+  <!-- side panel: bars -->
+  <rect x="1140" y="300" width="340" height="500" rx="12" fill="#1f2329"/>
+  <text x="1164" y="340" font-size="18" fill="#e6e8eb">Top dashboards</text>
+  <g font-size="15" fill="#8b929c">
+    <text x="1164" y="392">Weekly sales</text><rect x="1164" y="402" width="270" height="14" rx="7" fill="#f59e0b"/>
+    <text x="1164" y="456">Signups by source</text><rect x="1164" y="466" width="210" height="14" rx="7" fill="#f59e0b" opacity=".8"/>
+    <text x="1164" y="520">Support load</text><rect x="1164" y="530" width="160" height="14" rx="7" fill="#f59e0b" opacity=".6"/>
+    <text x="1164" y="584">Inventory</text><rect x="1164" y="594" width="120" height="14" rx="7" fill="#f59e0b" opacity=".45"/>
+    <text x="1164" y="648">Cash runway</text><rect x="1164" y="658" width="90" height="14" rx="7" fill="#f59e0b" opacity=".3"/>
+  </g>
+</svg>

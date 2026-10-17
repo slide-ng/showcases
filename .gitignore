@@ -1,0 +1,6 @@
+node_modules/
+site/
+dist/
+.slide-ng/
+*.log
+.DS_Store

@@ -1,0 +1,6 @@
+{
+  "name": "brasidal-brand",
+  "layouts": {
+    "split-quote": { "props": ["author", "role", "accent"], "slots": ["quote", "aside"], "classProp": false }
+  }
+}

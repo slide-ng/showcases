@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#e9e1d2"/>
+  <g fill="none" stroke="#d8cfc0" stroke-width="1">
+    <path d="M0 120h800M0 880h800"/>
+  </g>
+  <!-- a composing stick holding a line of lead sorts, seen from above -->
+  <g transform="translate(70 300)">
+    <rect x="0" y="0" width="660" height="220" rx="6" fill="#8d8478"/>
+    <rect x="12" y="14" width="636" height="192" rx="3" fill="#6f675d"/>
+    <g font-family="Georgia, 'Times New Roman', serif" font-size="120" font-weight="700" text-anchor="middle" fill="#2a2622">
+      <g transform="translate(40 30)">
+        <rect width="104" height="160" rx="4" fill="#a49c90"/><rect x="6" y="6" width="92" height="148" rx="3" fill="#b9b1a4"/>
+        <text x="52" y="122" fill="#c8412b" transform="scale(-1 1) translate(-104 0)">&amp;</text>
+      </g>
+      <g transform="translate(152 30)">
+        <rect width="104" height="160" rx="4" fill="#a49c90"/><rect x="6" y="6" width="92" height="148" rx="3" fill="#b9b1a4"/>
+        <text x="52" y="122" transform="scale(-1 1) translate(-104 0)">E</text>
+      </g>
+      <g transform="translate(264 30)">
+        <rect width="104" height="160" rx="4" fill="#a49c90"/><rect x="6" y="6" width="92" height="148" rx="3" fill="#b9b1a4"/>
+        <text x="52" y="122" transform="scale(-1 1) translate(-104 0)">P</text>
+      </g>
+      <g transform="translate(376 30)">
+        <rect width="104" height="160" rx="4" fill="#a49c90"/><rect x="6" y="6" width="92" height="148" rx="3" fill="#b9b1a4"/>
+        <text x="52" y="122" transform="scale(-1 1) translate(-104 0)">Y</text>
+      </g>
+      <g transform="translate(488 30)">
+        <rect width="104" height="160" rx="4" fill="#a49c90"/><rect x="6" y="6" width="92" height="148" rx="3" fill="#b9b1a4"/>
+        <text x="52" y="122" transform="scale(-1 1) translate(-104 0)">T</text>
+      </g>
+    </g>
+  </g>
+  <!-- the printed impression, the right way round -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="middle">
+    <text x="400" y="700" font-size="110" fill="#1d1b18" letter-spacing="8">TYPE<tspan fill="#c8412b">&amp;</tspan></text>
+    <text x="400" y="770" font-size="26" font-weight="400" font-style="italic" fill="#6b645a">sorts are cast in reverse; the page reads right</text>
+  </g>
+  <path d="M400 560v50" stroke="#c8412b" stroke-width="3" marker-end="url(#a)"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#c8412b"/></marker></defs>
+</svg>

@@ -1,0 +1,6 @@
+/* Bigger code: this deck is mostly code, one block per slide. */
+:root:root {
+  --slidev-code-font-size: 16px;
+  --slidev-code-line-height: 25px;
+  --slidev-code-padding: 12px;
+}
