@@ -10,7 +10,7 @@
     "build:one": "node scripts/build-all.mjs --only"
   },
   "dependencies": {
-    "@slide-ng/core": "github:slide-ng/slide.ng"
+    "@slide-ng/core": "^1.0.0"
   },
   "engines": {
     "node": ">=22.12"
