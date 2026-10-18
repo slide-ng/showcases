@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "description": "Thirty-one decks made with slide.ng: Angular templates, Slidev features and four themes.",
+  "author": "Erkam Yaman (https://github.com/erkamyaman)",
   "license": "MIT",
   "scripts": {
     "dev": "slide-ng dev",
