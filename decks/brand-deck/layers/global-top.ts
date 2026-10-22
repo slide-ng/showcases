@@ -6,7 +6,7 @@ import { SLIDE_NO } from 'slide-ng/lib/slide-context';
 @Component({
   selector: 'brand-footer',
   host: { class: 'brand-footer' },
-  template: `<img src="/logo.svg" alt="" class="brand-footer-logo" /><span>Brasidal Coffee Roasters · Brand Guide 2027</span>
+  template: `<img src="logo.svg" alt="" class="brand-footer-logo" /><span>Brasidal Coffee Roasters · Brand Guide 2027</span>
     <span class="brand-footer-no" >{{ no() }} / {{ total }}</span>`,
 })
 export default class BrandFooter {
