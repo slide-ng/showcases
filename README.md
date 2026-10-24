@@ -43,6 +43,7 @@ Every deck is a normal slide.ng project in `decks/<name>/`: a `slides.md` and, w
 | [Q3 Product Update](decks/product-update)                        | A quarterly product update that uses every built-in layout: big numbers, quotes, charts and a live changelog.                                         | minimal   |
 | [Ship It](decks/ship-it)                                         | How a talk ships as a site, a PDF, an offline folder and an installable app, and how this gallery goes out to GitHub Pages.                           | moss      |
 | [مخطط النقل في مدينة الواحة](decks/rtl-and-languages)            | A transit plan in Arabic: right-to-left slides with left-to-right code, plus Japanese, German and Hebrew pages.                                       | blueprint |
+| [Brewing Turkish Tea](decks/turkish-tea)                         | A short talk on Turkish tea in English and Turkish: a language menu in the bar, pipes that follow the language, and the bar at the top right.         | paper     |
 | [Robust by Design](decks/edge-cases)                             | Long titles, long lists, wide tables, braces, entities and file names with spaces, all laid out cleanly.                                              | default   |
 
 <!-- /DECKS -->

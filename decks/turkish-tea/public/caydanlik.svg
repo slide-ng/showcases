@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" fill="none" stroke="#1d1d1b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <!-- the top pot (demlik), where the leaves steep -->
+  <path d="M84 70 h72" />
+  <circle cx="120" cy="62" r="6" fill="#1d1d1b" />
+  <path d="M74 78 h92 q10 0 10 12 v46 q0 18 -18 18 h-76 q-18 0 -18 -18 v-46 q0 -12 10 -12 z" fill="#c8102e" fill-opacity="0.12" />
+  <path d="M176 96 q26 -2 30 -26" />
+  <path d="M64 92 q-24 6 -18 34 q4 14 22 14" />
+  <!-- the bottom pot, where the water boils -->
+  <path d="M60 162 h120" />
+  <path d="M52 170 h136 q14 0 14 16 v74 q0 26 -26 26 h-112 q-26 0 -26 -26 v-74 q0 -16 14 -16 z" />
+  <path d="M202 192 q30 -4 34 -34" />
+  <path d="M38 186 q-30 10 -24 52 q4 20 26 22" />
+  <!-- the flame -->
+  <path d="M100 304 q8 -12 0 -20 q14 6 12 20 M128 304 q8 -12 0 -20 q14 6 12 20" stroke="#c8102e" />
+</svg>

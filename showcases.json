@@ -296,6 +296,16 @@
     ]
   },
   {
+    "slug": "turkish-tea",
+    "theme": "paper",
+    "blurb": "A short talk on Turkish tea in English and Turkish: a language menu in the bar, pipes that follow the language, and the bar at the top right.",
+    "tags": [
+      "i18n",
+      "languages",
+      "navigation"
+    ]
+  },
+  {
     "slug": "edge-cases",
     "theme": "default",
     "blurb": "Long titles, long lists, wide tables, braces, entities and file names with spaces, all laid out cleanly.",

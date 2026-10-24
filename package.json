@@ -2,7 +2,7 @@
   "name": "slide-ng-showcases",
   "private": true,
   "type": "module",
-  "description": "Thirty-one decks made with slide.ng: Angular templates, Slidev features and four themes.",
+  "description": "Thirty-two decks made with slide.ng: Angular templates, Slidev features and four themes.",
   "author": "Erkam Yaman (https://github.com/erkamyaman)",
   "license": "MIT",
   "scripts": {
@@ -11,7 +11,7 @@
     "build:one": "node scripts/build-all.mjs --only"
   },
   "dependencies": {
-    "@slide-ng/core": "^2.0.0"
+    "@slide-ng/core": "^2.1.0"
   },
   "engines": {
     "node": ">=22.12"
