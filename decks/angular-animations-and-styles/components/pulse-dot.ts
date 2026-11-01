@@ -2,7 +2,7 @@ import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'pulse-dot',
-  template: `<span class="dot"></span><span class="label">{{ label() }}</span>`,
+  templateUrl: './pulse-dot.html',
   styles: `
     :host { display: inline-flex; align-items: center; gap: .5rem; padding: .25rem .75rem; border-radius: 999px; background: rgb(34 197 94 / .15); }
     :host(.warn) { background: rgb(234 179 8 / .2); }

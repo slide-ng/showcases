@@ -1,0 +1,4 @@
+<div>owner: <strong>{{ owner() | initials }}</strong></div>
+<div>cover price: <span>{{ static$ | async | currency: 'EUR' }}</span></div>
+<div>live bid: <span>{{ ticker$ | async | currency: 'USD' : 'symbol' : '1.0-0' }}</span></div>
+<div>printed: {{ when | date: 'fullDate' }}</div>

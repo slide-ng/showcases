@@ -1,6 +1,10 @@
 import { Component, signal } from '@angular/core';
 
-@Component({ selector: 'data-box', host: { style: 'display:none' }, template: '' })
+@Component({
+  selector: 'data-box',
+  host: { style: 'display:none' },
+  templateUrl: './data-box.html',
+})
 export class DataBox {
   status = signal<'draft' | 'review' | 'approved' | 'rejected' | 'archived' | 'on hold'>('review');
   rows = [

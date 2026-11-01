@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 60" class="w-full">
+  @for (v of values(); track $index) {
+    <rect [attr.x]="$index * 22 + 2" [attr.y]="60 - v" width="18" [attr.height]="v" fill="#f5b942" />
+  }
+</svg>
+<div class="text-xs">{{ label() }} · loaded as a separate chunk</div>

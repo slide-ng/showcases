@@ -1,0 +1,14 @@
+<form [formGroup]="form" (ngSubmit)="submit()" class="flex flex-col gap-2 max-w-md">
+  <input formControlName="name" placeholder="name" class="field" />
+  <input formControlName="email" placeholder="email" class="field" />
+  @if (form.controls.email.touched && form.controls.email.invalid) {
+    <span class="text-sm text-amber-300">Please enter a valid email address.</span>
+  }
+  <select formControlName="plot" class="field">
+    <option value="">choose a plot</option>
+    <option value="north">North bed</option>
+    <option value="south">South bed</option>
+  </select>
+  <button type="submit" class="px-3 py-1 rounded border w-fit" [disabled]="form.invalid">reserve</button>
+</form>
+<p class="text-sm op80">form is <strong>{{ status() }}</strong>@if (sent()) { · reserved for {{ sent() }} }</p>

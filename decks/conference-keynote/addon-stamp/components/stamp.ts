@@ -4,7 +4,7 @@ import { Component, input } from '@angular/core';
 @Component({
   selector: 'kn-stamp',
   host: { class: 'kn-stamp', '[style.--kn-stamp-color]': 'color()' },
-  template: '<span class="kn-stamp-text">{{ text() }}</span><ng-content />',
+  templateUrl: './stamp.html',
 })
 export class KnStamp {
   text = input('APPROVED');

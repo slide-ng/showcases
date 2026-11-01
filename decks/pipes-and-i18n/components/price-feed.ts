@@ -7,12 +7,7 @@ import { InitialsPipe } from './initials.pipe';
   selector: 'price-feed',
   imports: [AsyncPipe, CurrencyPipe, DatePipe, InitialsPipe],
   host: { class: 'block p-3 border rounded' },
-  template: `
-    <div>owner: <strong>{{ owner() | initials }}</strong></div>
-    <div>cover price: <span>{{ static$ | async | currency: 'EUR' }}</span></div>
-    <div>live bid: <span>{{ ticker$ | async | currency: 'USD' : 'symbol' : '1.0-0' }}</span></div>
-    <div>printed: {{ when | date: 'fullDate' }}</div>
-  `,
+  templateUrl: './price-feed.html',
 })
 export class PriceFeed {
   owner = input('jule petersen');

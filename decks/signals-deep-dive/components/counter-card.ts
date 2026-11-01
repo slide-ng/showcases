@@ -3,17 +3,7 @@ import { Component, booleanAttribute, computed, effect, input, numberAttribute, 
 @Component({
   selector: 'counter-card',
   host: { class: 'block p-3 my-2 rounded border border-gray-500/40' },
-  template: `
-    <div class="flex items-center gap-3">
-      <strong>{{ label() }}</strong>
-      <button class="px-2 rounded bg-blue-600 text-white" (click)="dec()">-</button>
-      <span class="font-mono text-xl">{{ count() }}</span>
-      <button class="px-2 rounded bg-blue-600 text-white" (click)="inc()">+</button>
-      <span class="op70">double: {{ double() }}, parity: {{ parity() }}</span>
-      @if (locked()) { <span class="text-red-400">locked</span> }
-    </div>
-    <div class="text-xs op60">effect log: {{ log().join(' > ') }}</div>
-  `,
+  templateUrl: './counter-card.html',
 })
 export class CounterCard {
   label = input('Counter');

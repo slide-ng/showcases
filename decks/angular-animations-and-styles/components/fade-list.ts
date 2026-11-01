@@ -3,17 +3,7 @@ import { Component, signal } from '@angular/core';
 @Component({
   selector: 'fade-list',
   host: { class: 'block' },
-  template: `
-    <div class="flex gap-2 mb-2">
-      <button class="px-2 rounded border" (click)="add()">add</button>
-      <button class="px-2 rounded border" (click)="remove()">remove</button>
-    </div>
-    <ul>
-      @for (i of items(); track i) {
-        <li animate.enter="slide-in" animate.leave="slide-out">item {{ i }}</li>
-      }
-    </ul>
-  `,
+  templateUrl: './fade-list.html',
   styles: `
     .slide-in { animation: in .4s ease-out; }
     .slide-out { animation: out .4s ease-in forwards; }

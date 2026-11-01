@@ -1,0 +1,4 @@
+@for (p of products; track p.name) {
+  <button class="px-3 py-1 rounded border" (click)="cart.add(p.name, p.price)">add {{ p.name }} ({{ p.price }} €)</button>
+}
+<span class="op70">in cart: {{ cart.lines().length }} lines</span>
