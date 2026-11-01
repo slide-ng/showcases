@@ -5,7 +5,7 @@ import { of } from 'rxjs';
 @Component({
   selector: 'stats-source',
   host: { style: 'display:none' },
-  template: '',
+  templateUrl: './stats-source.html',
 })
 export class StatsSource {
   revenue = 1234567.891;

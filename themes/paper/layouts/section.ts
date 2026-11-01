@@ -4,7 +4,7 @@ import { Component, input } from '@angular/core';
 @Component({
   selector: 'paper-section',
   host: { class: 'slidev-layout paper-section' },
-  template: '<div class="paper-section-no">{{ no() }}</div><div><ng-content /></div>',
+  templateUrl: './section.html',
 })
 export class PaperSection {
   no = input('§');

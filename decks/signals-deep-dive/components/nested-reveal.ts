@@ -5,7 +5,7 @@ import { SlideNgClick } from 'slide-ng/lib/slide-ng-click';
   selector: 'reveal-inner',
   imports: [SlideNgClick],
   host: { class: 'block ml-6 my-1' },
-  template: `<span slide-ng-click class="px-2 py-0.5 rounded bg-sky-700 text-white">{{ name() }}</span>`,
+  templateUrl: './nested-reveal.reveal-inner.html',
 })
 export class RevealInner {
   name = input('');
@@ -15,12 +15,7 @@ export class RevealInner {
   selector: 'reveal-outer',
   imports: [SlideNgClick, RevealInner],
   host: { class: 'block p-2 border border-gray-500/40 rounded my-2' },
-  template: `
-    <div slide-ng-click>{{ title() }} starts</div>
-    <reveal-inner name="unit tests" />
-    <reveal-inner name="end-to-end tests" />
-    <div slide-ng-click>{{ title() }} done</div>
-  `,
+  templateUrl: './nested-reveal.reveal-outer.html',
 })
 export class RevealOuter {
   title = input('Step');

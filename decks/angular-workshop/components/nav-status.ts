@@ -6,7 +6,7 @@ import { SLIDE_NO } from 'slide-ng/lib/slide-context';
 @Component({
   selector: 'nav-status',
   host: { class: 'block font-mono text-sm px-3 py-2 mt-4 border border-gray-500/50 rounded op80' },
-  template: `slide {{ mine }} of {{ nav.total }} · click {{ clicks.current() }} of {{ clicks.total() }} · {{ left() }} {{ left() === 1 ? 'slide' : 'slides' }} to go`,
+  templateUrl: './nav-status.html',
 })
 export class NavStatus {
   nav = inject(Nav);

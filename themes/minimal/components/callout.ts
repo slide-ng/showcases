@@ -4,7 +4,7 @@ import { Component, input } from '@angular/core';
 @Component({
   selector: 'minimal-callout',
   host: { class: 'minimal-callout' },
-  template: '<strong class="minimal-callout-title">{{ title() }}</strong><div><ng-content /></div>',
+  templateUrl: './callout.html',
 })
 export class MinimalCallout {
   title = input('Note');

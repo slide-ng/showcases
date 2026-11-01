@@ -4,11 +4,7 @@ import { Component, input } from '@angular/core';
 @Component({
   selector: 'zine-recipe',
   host: { class: 'slidev-layout recipe grid grid-cols-[1fr_2fr] gap-8 h-full p-12' },
-  template: `<aside class="recipe-ingredients border-r-2 border-dashed pr-6">
-      <div class="text-xs uppercase tracking-widest op70 recipe-meta">Serves {{ serves() }} · {{ time() }}</div>
-      <ng-content select="[ingredients]" />
-    </aside>
-    <div class="recipe-method"><ng-content /></div>`,
+  templateUrl: './recipe.html',
 })
 export class ZineRecipe {
   serves = input('2');

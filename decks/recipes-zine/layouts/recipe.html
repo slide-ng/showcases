@@ -1,0 +1,5 @@
+<aside class="recipe-ingredients border-r-2 border-dashed pr-6">
+      <div class="text-xs uppercase tracking-widest op70 recipe-meta">Serves {{ serves() }} · {{ time() }}</div>
+      <ng-content select="[ingredients]" />
+    </aside>
+    <div class="recipe-method"><ng-content /></div>

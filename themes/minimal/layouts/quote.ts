@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'minimal-quote',
   host: { class: 'slidev-layout minimal-quote' },
-  template: '<div class="minimal-quote-body"><ng-content /></div>',
+  templateUrl: './quote.html',
 })
 export class MinimalQuote {}

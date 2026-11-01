@@ -7,23 +7,7 @@ const USERS: Record<number, string> = { 1: 'Mira Okafor', 2: 'Jonas Lindqvist', 
 @Component({
   selector: 'user-resource',
   host: { class: 'block' },
-  template: `
-    <div class="flex gap-2 items-center">
-      <button class="px-2 rounded border" (click)="id.set(id() - 1)">prev</button>
-      <span>id {{ id() }}</span>
-      <button class="px-2 rounded border" (click)="id.set(id() + 1)">next</button>
-    </div>
-    <p>resource (promise):
-      @if (user.isLoading()) { <em>loading...</em> }
-      @else if (user.error()) { <span class="text-red-400">error: {{ errText(user.error()) }}</span> }
-      @else { <strong>{{ user.value() }}</strong> }
-    </p>
-    <p>rxResource (observable):
-      @if (user2.isLoading()) { <em>loading...</em> }
-      @else if (user2.hasValue()) { <strong>{{ user2.value() }}</strong> }
-      @else { <span class="text-red-400">no value</span> }
-    </p>
-  `,
+  templateUrl: './user-resource.html',
 })
 export class UserResource {
   id = signal(1);

@@ -4,14 +4,7 @@ import { Component, input } from '@angular/core';
 @Component({
   selector: 'brand-split-quote',
   host: { class: 'slidev-layout split-quote', '[style.--accent]': 'accent()' },
-  template: `
-    <header class="sq-head"><ng-content /></header>
-    <div class="sq-body">
-      <blockquote class="sq-quote"><ng-content select="[quote]" /></blockquote>
-      <aside class="sq-aside"><ng-content select="[aside]" /></aside>
-    </div>
-    <footer class="sq-by">— {{ author() }}@if (role()) {<span>, {{ role() }}</span>}</footer>
-  `,
+  templateUrl: './split-quote.html',
 })
 export class SplitQuoteLayout {
   author = input('Anonymous');

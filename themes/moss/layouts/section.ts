@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'moss-section',
   host: { class: 'slidev-layout moss-section' },
-  template: '<div class="moss-section-bar"></div><div><ng-content /></div>',
+  templateUrl: './section.html',
 })
 export class MossSection {}

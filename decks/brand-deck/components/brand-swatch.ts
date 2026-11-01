@@ -5,7 +5,7 @@ import { UpperCasePipe } from '@angular/common';
 @Component({
   selector: 'brand-swatch',
   host: { class: 'swatch', '[style.background]': 'hex()', '[style.color]': 'ink()' },
-  template: '<strong>{{ name() }}</strong><span>{{ hex() | uppercase }}</span>',
+  templateUrl: './brand-swatch.html',
   imports: [UpperCasePipe],
 })
 export class BrandSwatch {

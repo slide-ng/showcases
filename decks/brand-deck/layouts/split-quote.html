@@ -1,0 +1,6 @@
+<header class="sq-head"><ng-content /></header>
+<div class="sq-body">
+  <blockquote class="sq-quote"><ng-content select="[quote]" /></blockquote>
+  <aside class="sq-aside"><ng-content select="[aside]" /></aside>
+</div>
+<footer class="sq-by">— {{ author() }}@if (role()) {<span>, {{ role() }}</span>}</footer>

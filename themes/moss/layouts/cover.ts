@@ -5,7 +5,7 @@ import { background } from 'slide-ng/layouts/background';
 @Component({
   selector: 'moss-cover',
   host: { class: 'slidev-layout moss-cover', '[style]': 'style()' },
-  template: '<div class="moss-cover-body"><ng-content /></div>',
+  templateUrl: './cover.html',
 })
 export class MossCover {
   background = input('');

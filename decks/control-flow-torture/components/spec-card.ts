@@ -4,10 +4,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'spec-card',
   host: { class: 'block p-2 border' },
-  template: `
-    <div class="font-bold">B-7 · Rail</div>
-    <div class="text-sm">aluminium, 1200 mm, anodised</div>
-    <div class="text-xs op70">loaded on hover, prefetched when the browser was idle</div>
-  `,
+  templateUrl: './spec-card.html',
 })
 export class SpecCard {}

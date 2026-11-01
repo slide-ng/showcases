@@ -1,0 +1,6 @@
+<form #f="ngForm" class="flex flex-col gap-2 max-w-md">
+  <input name="title" [(ngModel)]="title" required minlength="3" placeholder="title" class="field" />
+  <textarea name="body" [(ngModel)]="body" rows="2" placeholder="what did you plant?" class="field"></textarea>
+  <label class="text-sm"><input type="checkbox" name="pinned" [(ngModel)]="pinned" /> pin to the top</label>
+</form>
+<p class="text-sm op80">ngForm says <strong>{{ f.valid ? 'valid' : 'invalid' }}</strong> · {{ words() }} words</p>

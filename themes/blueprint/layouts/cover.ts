@@ -5,12 +5,7 @@ import { background } from 'slide-ng/layouts/background';
 @Component({
   selector: 'bp-cover',
   host: { class: 'slidev-layout bp-cover', '[style]': 'style()' },
-  template: `<div class="bp-frame">
-    <i class="bp-corner tl"></i><i class="bp-corner tr"></i><i class="bp-corner bl"></i
-    ><i class="bp-corner br"></i>
-    <div class="bp-cover-body"><ng-content /></div>
-    <div class="bp-sheet">{{ sheet() }}</div>
-  </div>`,
+  templateUrl: './cover.html',
 })
 export class BlueprintCover {
   background = input('');

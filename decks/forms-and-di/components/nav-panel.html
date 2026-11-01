@@ -1,0 +1,6 @@
+<div>slide {{ nav.no() }} / {{ nav.total }} · clicks {{ clicks.current() }}/{{ clicks.total() }} · keys pressed here: {{ keys() }}</div>
+<div class="flex gap-2 mt-1">
+  <button class="px-2 rounded border" (click)="nav.go(1, 0)">first slide</button>
+  <button class="px-2 rounded border" (click)="nav.next()">next step</button>
+  <button class="px-2 rounded border" (click)="nav.go(5, 0)">the shop</button>
+</div>

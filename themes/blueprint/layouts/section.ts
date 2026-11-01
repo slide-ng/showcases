@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'bp-section',
   host: { class: 'slidev-layout bp-section' },
-  template: '<div class="bp-dim"></div><div><ng-content /></div><div class="bp-dim"></div>',
+  templateUrl: './section.html',
 })
 export class BlueprintSection {}

@@ -10,15 +10,7 @@ export class TabPane {
   selector: 'tab-group',
   imports: [],
   host: { class: 'block border rounded p-2' },
-  template: `
-    <div #bar class="flex gap-2 mb-2 border-b pb-1">
-      @for (t of tabs(); track $index) {
-        <button class="px-2" [class.font-bold]="$index === active()" (click)="select($index)">{{ t.title() }}</button>
-      }
-    </div>
-    <ng-content />
-    <div class="text-xs op60 mt-2">{{ count() }} tabs under "{{ header()?.nativeElement?.textContent?.trim() }}" · tab bar {{ barWidth() }} px wide</div>
-  `,
+  templateUrl: './tab-group.html',
 })
 export class TabGroup implements AfterViewInit {
   tabs = contentChildren(TabPane);

@@ -6,7 +6,7 @@ import { SLIDE_NO, RENDER_CONTEXT } from 'slide-ng/lib/slide-context';
 @Component({
   selector: 'slide-watch',
   host: { class: 'block w-fit mt-4 px-3 py-1 rounded border border-gray-500/40 text-sm font-mono op80' },
-  template: `slide {{ mine }} · click {{ clicks.current() }} of {{ clicks.total() }} · drawn for {{ ctx }}`,
+  templateUrl: './slide-watch.html',
 })
 export class SlideWatch {
   clicks = inject(ClicksContext);

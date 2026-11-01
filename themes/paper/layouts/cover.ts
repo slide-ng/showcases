@@ -5,12 +5,7 @@ import { background } from 'slide-ng/layouts/background';
 @Component({
   selector: 'paper-cover',
   host: { class: 'slidev-layout paper-cover', '[style]': 'style()' },
-  template: `<div class="paper-masthead">
-      <span>{{ issue() }}</span
-      ><span>{{ date() }}</span>
-    </div>
-    <div class="paper-cover-body"><ng-content /></div>
-    <div class="paper-rule"></div>`,
+  templateUrl: './cover.html',
 })
 export class PaperCover {
   background = input('');
