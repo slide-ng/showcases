@@ -11,7 +11,7 @@
     "build:one": "node scripts/build-all.mjs --only"
   },
   "dependencies": {
-    "@slide-ng/core": "^3.1.1"
+    "@slide-ng/core": "^3.2.0"
   },
   "engines": {
     "node": ">=22.12"
