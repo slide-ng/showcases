@@ -32,7 +32,7 @@ jobs:
         env:
           BASE: /${{ github.event.repository.name }}/
           SLIDE_NG_NO_SANDBOX: '1'
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
