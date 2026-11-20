@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 26
       # No lockfile on purpose: the showcases always build with the latest slide.ng.
       - run: npm install --no-audit --no-fund
       # Chromium makes the PDFs of the decks with `download: true` and the Open Graph pictures.
